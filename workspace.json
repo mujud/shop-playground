@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "shop-playground": "apps/shop-playground",
-    "shop-playground-e2e": "apps/shop-playground-e2e"
+    "shop-server": "apps/shop-server",
+    "ui-elements": "libs/ui-elements"
   }
 }
