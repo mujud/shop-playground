@@ -11,7 +11,7 @@ export type Props = {
 const colors = {
   base: 'gray',
   warning: 'yellow',
-  xyz: 'abc',
+  howdy: 'green',
   destruct: 'red',
 };
 
