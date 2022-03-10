@@ -11,7 +11,7 @@ export type Props2 = {
 const size = {
   king: 'small',
   kong: 'large',
-  hello: 'aaaa',
+  hey: 'xyz',
 };
 
 const H1Wrapper = styled.h1<{ variant: Variant }>`
