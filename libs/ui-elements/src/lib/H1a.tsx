@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 
-type Variant = 'king' | 'kong'
+type Variant = 'king' | 'kong';
 
 export type H1aProps = {
   value: string;
@@ -11,6 +11,7 @@ export type H1aProps = {
 const size = {
   king: 'small',
   kong: 'large',
+  hello: 'aaaa',
 };
 
 const H1Wrapper = styled.h1<{ variant: Variant }>`
