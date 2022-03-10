@@ -19,5 +19,5 @@ const ButtonWrapper = styled.button<{ variant: Variant }>`
 `;
 
 export const Button: FC<Props> = ({ value, variant = 'base' }) => {
-  return <ButtonWrapper variant={variant}>{value}</ButtonWrapper>;
+  return <ButtonWrapper variant={variant}>{value} *</ButtonWrapper>;
 };

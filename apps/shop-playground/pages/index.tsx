@@ -12,7 +12,7 @@ export function Index() {
   useEffect(() => {
     const getMessage = async () => {
       const res = await axios.get<{ message: string }>(
-        'http://localhost:3333/api'
+        'http://localhost:3333/welcome'
       );
       setMessage(res.data.message);
     };
@@ -20,7 +20,7 @@ export function Index() {
   }, []);
   return (
     <StyledPage>
-      <Button variant="destruct" value="abc" />
+      <Button variant="base" value="abc" />
       <br />
       {message}
     </StyledPage>
