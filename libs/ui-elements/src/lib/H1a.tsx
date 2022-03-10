@@ -11,7 +11,6 @@ export type H1aProps = {
 const size = {
   king: 'small',
   kong: 'large',
-  hey: 'xyz',
 };
 
 const H1Wrapper = styled.h1<{ variant: Variant }>`

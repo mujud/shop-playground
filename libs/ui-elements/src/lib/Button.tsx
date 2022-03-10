@@ -17,6 +17,7 @@ const colors = {
 
 const ButtonWrapper = styled.button<{ variant: Variant }>`
   background: ${(props) => colors[props.variant]};
+  cursor: pointer;
 `;
 
 export const Button: FC<Props> = ({ value, variant = 'base' }) => {
